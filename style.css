@@ -58,6 +58,12 @@ a {
   font-weight: 900;
 }
 
+.brand-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
 .brand-mark {
   width: 48px;
   height: 48px;
