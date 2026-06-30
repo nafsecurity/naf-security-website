@@ -456,6 +456,17 @@ a {
   font-weight: 800;
 }
 
+.gallery-box {
+  overflow: hidden;
+}
+
+.gallery-box img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
 .careers-section {
   background: linear-gradient(135deg, #181b20, #0b0d10);
   border: 1px solid var(--line);
