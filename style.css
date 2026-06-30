@@ -561,10 +561,8 @@ footer {
 }
 
 @media (max-width: 980px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+  .quote-btn {
+    display: none;
   }
 
   .menu-btn {
@@ -590,8 +588,11 @@ footer {
   }
 
   .service-grid,
-  .coverage-grid,
   .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coverage-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -607,17 +608,17 @@ footer {
 }
 
 @media (max-width: 620px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
+  .navbar {
+    height: 76px;
   }
-
-  .gallery-box {
-    height: 260px;
-  }
-}
 
   .brand-main {
     font-size: 26px;
+  }
+
+  .brand-logo {
+    width: 48px;
+    height: 48px;
   }
 
   .brand-mark {
@@ -643,6 +644,10 @@ footer {
   .gallery-grid,
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-box {
+    height: 260px;
   }
 
   .section {
